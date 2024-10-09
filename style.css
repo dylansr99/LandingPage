@@ -90,7 +90,7 @@ body {
 }
 
 .products {
-    font-size: 32px;
+    font-size: 36px;
     color: #1F2937;
     font-weight: 900;
 }
@@ -98,6 +98,17 @@ body {
 .caption {
     color: rgb(118, 117, 117);
     font-size: 18px;
+}
+
+quote{
+    display: flex;
+    justify-content: flex-start;
+}
+
+quoteText {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
 }
 
 ul {
