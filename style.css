@@ -6,6 +6,7 @@ body {
 
 .header {
     background-color: #1F2937;
+    padding: 16px;
 }
 
 .logo {
@@ -28,6 +29,21 @@ body {
     justify-content: space-around;
     align-items: center;
     padding-top: 8px;
+}
+
+.herotext {
+    display: flex;
+}
+
+#text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#subtext {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 ul {
