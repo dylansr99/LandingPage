@@ -8,7 +8,7 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
-    padding-top: 16px;
+    padding: 24px 80px;
     height: 500px;
 }
 
@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 400px;
+    width: 460px;
     gap: 100px;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .links {
     display: flex;
-    gap: 8px;
+    gap: 16px;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -45,14 +45,15 @@ body {
 .textbutton {
     display: flex;
     flex-direction: column;
-    flex-basis: 460px;
+    flex-basis: 480px;
     align-items: flex-start;
     gap: 16px;
 }
 
 .placeholder {
     background-color: grey;
-    padding: 90px 110px
+    color: white;
+    padding: 100px 140px
 }
 
 #text {
