@@ -50,12 +50,6 @@ body {
     gap: 16px;
 }
 
-.placeholder {
-    background-color: grey;
-    color: white;
-    padding: 100px 140px
-}
-
 #text {
     color: #F9FAF8;
     font-size: 48px;
