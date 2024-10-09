@@ -6,3 +6,14 @@ body {
 .header {
     background-color: #1F2937;
 }
+
+.logo {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.headerlinks {
+    display: flex;
+    justify-content: space-around;
+}
