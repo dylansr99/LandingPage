@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'roboto';
 }
 
 .header {
@@ -11,9 +12,13 @@ body {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
+    padding: 0;
 }
 
 .links {
+    display: flex;
+    gap: 8px;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -21,4 +26,13 @@ body {
 .headerlinks {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding-top: 8px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
