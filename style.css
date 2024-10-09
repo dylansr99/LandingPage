@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'roboto';
+    font-family: 'roboto', sans-serif;
 }
 
 .header {
