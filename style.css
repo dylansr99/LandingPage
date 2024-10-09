@@ -87,6 +87,12 @@ body {
     flex-basis: 150px;
 }
 
+.title {
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 ul {
     text-decoration: none;
     list-style-type: none;
