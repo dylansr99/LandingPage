@@ -130,8 +130,25 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
-    margin: 200px;
-    padding: 24px;
+    margin: 150px;
+    padding: 36px;
+    color: white;
+    border-radius: 10px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.signText {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.signSubtext {
+    margin: 0;
 }
 
 ul {
