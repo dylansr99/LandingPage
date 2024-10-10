@@ -151,6 +151,15 @@ body {
     margin: 0;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 24px;
+}
+
 ul {
     text-decoration: none;
     list-style-type: none;
