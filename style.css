@@ -100,15 +100,29 @@ body {
     font-size: 18px;
 }
 
-quote{
+.quote {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 60px 120px;
 }
 
-quoteText {
+.quoteText {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
+    font-weight: 300;
     color: #1F2937;
+    width: 1000px;
+    margin: 0;
+}
+
+.nameText {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    padding-right: 140px;
+    align-self: flex-end;
 }
 
 ul {
