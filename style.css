@@ -125,6 +125,15 @@ body {
     align-self: flex-end;
 }
 
+.signUp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 200px;
+    padding: 24px;
+}
+
 ul {
     text-decoration: none;
     list-style-type: none;
@@ -132,11 +141,23 @@ ul {
     padding: 0;
 }
 
-button {
+#heroButton {
     background-color: #3882F6;
     color: white;
     border-radius: 10px;
     border: 0;
+    padding: 8px;
+    width: 120px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#signButton {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
     padding: 8px;
     width: 120px;
     font-weight: 600;
